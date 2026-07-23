@@ -6,9 +6,9 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "postbuild": "next-sitemap",
     "deploy": "firebase deploy --only hosting"
@@ -19,7 +19,7 @@
     "@react-three/fiber": "^9.1.2",
     "firebase": "^11.9.1",
     "gsap": "^3.13.0",
-    "next": "15.3.3",
+    "next": "15.3.8",
     "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
